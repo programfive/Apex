@@ -1,17 +1,7 @@
 "use client";
+import { FooterChat } from "@/components/footer-chat";
+import { HeroChat } from "@/components/hero-chat";
 import { Wrapper } from "@/components/shared/wrapper";
-import { Button } from "@/components/ui/button";
-
-import { Input } from "@/components/ui/input";
-import {
-  ArrowLeft,
-  EllipsisVertical,
-  Smile,
-  Paperclip,
-  Camera,
-  Mic,
-  Send,
-} from "lucide-react";
 
 import Image from "next/image";
 
@@ -19,9 +9,9 @@ export function Hero() {
   return (
     <Wrapper className="mt-36 flex gap-48 ">
       <section className="mt-5 max-w-[26rem]">
-        <h1 className="text-5xl font-semibold leading-tight text-text-primary ">
-          Send 
-          <span className="text-primary px-2">private </span>
+        <h1 className="text-5xl font-bold leading-tight text-text-primary ">
+          Send
+          <span className="px-2 text-primary">private </span>
           messages easily and securely
         </h1>
         <p className="mt-6 text-lg text-gray-600">
@@ -33,28 +23,7 @@ export function Hero() {
       <section className="relative">
         <div className="absolute left-0 right-0 top-16 z-20  mt-2 px-[18px] ">
           <div className=" px-4">
-            <section className="flex w-full flex-row items-center justify-between  border-b border-border py-2">
-              <div className="flex items-center gap-2">
-                <ArrowLeft size={24} />
-                <div className="flex items-center gap-2 ">
-                  <Image
-                    src="/images/ellipse2.jpg"
-                    alt="ellipse 2 "
-                    width={460}
-                    height={460}
-                    className="h-10 w-10 rounded-full object-cover"
-                  />
-                  <div className="text-sm ">
-                    <h3 className="font-semibold text-text-primary">
-                      Emily Rodriguez
-                    </h3>
-                    <p className="text-gray-600">Online</p>
-                  </div>
-                </div>
-              </div>
-              <EllipsisVertical size={24} />
-            </section>
-
+            <HeroChat urlAvatar="/images/ellipse2.jpg" name="Emily"/>
             <section className="mt-6 space-y-4">
               <div className="flex items-start gap-2">
                 <Image
@@ -70,7 +39,7 @@ export function Hero() {
               </div>
 
               <div className="flex items-start justify-end gap-2">
-                <div className="bg-orange-500 rounded-lg bg-primary p-2 text-white">
+                <div className="rounded-lg bg-orange-500 bg-primary p-2 text-white">
                   <p className="max-w-52 text-sm">Hi Sarah! How are you?</p>
                 </div>
                 <Image
@@ -114,26 +83,7 @@ export function Hero() {
           />
         </div>
 
-        <section className="absolute -left-6 -right-6 bottom-0 z-20 rounded-md bg-white p-2 shadow-md">
-          <div className="flex items-center space-x-2 p-2">
-            <div className="text-text-primary">
-              <Smile size={24} />
-            </div>
-            <Input
-              placeholder="Write your message..."
-              className="flex-grow   placeholder-gray-400 "
-            />
-            <Button>
-              <Send size={24} />
-            </Button>
-            <div className="text-text-primary">
-              <Paperclip size={24} />
-            </div>
-            <div className="text-text-primary">
-              <Camera size={24} />
-            </div>
-          </div>
-        </section>
+        <FooterChat />
       </section>
     </Wrapper>
   );

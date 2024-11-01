@@ -18,7 +18,7 @@ export function OnlineTime() {
           <section className="flex items-center justify-between border-b border-border px-2 pb-2">
             <div className="flex items-center gap-4 ">
               <ArrowLeft size={24} />
-              <h3 className="text-sm font-semibold text-text-primary">
+              <h3 className="text-sm font-bold text-text-primary">
                 Last time online
               </h3>
             </div>
@@ -26,7 +26,7 @@ export function OnlineTime() {
           </section>
           <section className="space-y-6 rounded-lg bg-white p-4">
             <div>
-              <h3 className="mb-4 text-sm font-semibold">
+              <h3 className="mb-4 text-sm font-bold">
                 Who can see my last seen time
               </h3>
               <RadioGroup defaultValue="my-contacts">
@@ -54,7 +54,7 @@ export function OnlineTime() {
             </div>
 
             <div>
-              <h3 className="mb-4 text-sm font-semibold">
+              <h3 className="mb-4 text-sm font-bold">
                 Who can see when I&apos;m online
               </h3>
               <RadioGroup defaultValue="everyone">
@@ -89,7 +89,7 @@ export function OnlineTime() {
         </Phone>
       </section>
       <section className="max-w-[450px]">
-        <h2 className="text-4xl font-semibold leading-tight text-text-primary">
+        <h2 className="text-4xl font-bold leading-tight text-text-primary">
           Last seen time and Online
         </h2>
         <p className="my-6 text-lg text-gray-600">

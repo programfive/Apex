@@ -8,10 +8,10 @@ import { CustomCard } from "@/components/custom-card";
 export function Features() {
   return (
     <Wrapper className="my-20">
-      <h2 className="text-center text-4xl font-semibold leading-tight text-text-primary">
+      <h2 className="text-center text-4xl font-bold leading-tight text-text-primary">
         Features for a better experience
       </h2>
-      <section className="mt-14">
+      <section className="mt-10">
         <div className="flex gap-4">
           {FEATURES.map((feature, index) => {
             return (

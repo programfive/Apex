@@ -125,24 +125,16 @@ export function NavItems({ className }: { className?: string }) {
               />
               <ProductItem
                 title="Join a community"
-                href="#"
+                href="/community"
                 description="Group conversations are now simple."
                 Icon={Users}
               />
               <ProductItem
                 title="Express yourself"
-                href="https://userogue.com"
+                href="/expression"
                 description="Say what you feel with stickers, GIFs and more."
                 Icon={Smile}
               />
-            </div>
-          </MenuItem>
-          <MenuItem setActive={setActive} active={active} item="Pricing">
-            <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/hobby">Hobby</HoveredLink>
-              <HoveredLink href="/individual">Individual</HoveredLink>
-              <HoveredLink href="/team">Team</HoveredLink>
-              <HoveredLink href="/enterprise">Enterprise</HoveredLink>
             </div>
           </MenuItem>
         </Menu>

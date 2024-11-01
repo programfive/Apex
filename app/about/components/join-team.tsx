@@ -13,14 +13,14 @@ export function JoinTeam() {
       <div className="absolute -bottom-[21.875rem] -right-1/4 h-[38.75rem] w-[38.75rem] scale-90 transform rounded-full border-4 border-white/80 bg-transparent opacity-30" />
       <div className="absolute -bottom-[21.875rem] -right-1/4 h-[38.75rem] w-[38.75rem] scale-105 transform rounded-full border-4 border-white/80 bg-transparent opacity-30" />
       <section className="mx-auto flex max-w-[32rem] flex-col items-center justify-center text-center ">
-        <h2 className="text-4xl font-semibold leading-tight text-white">
+        <h2 className="text-4xl font-bold leading-tight text-white">
           Join our team
         </h2>
         <p className="my-6 text-lg text-gray-100">
           Interested in applying for a position? View our Careers page for open
           positions and apply to help build our chat application.
         </p>
-        <Button variant="outline">Start chatting Now</Button>
+        <Button variant="outline" className="text-primary hover:text-orange-600 font-semibold">Start chatting Now</Button>
       </section>
     </Wrapper>
   );

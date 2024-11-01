@@ -17,7 +17,7 @@ export function Security() {
   return (
     <Wrapper className="relative my-10 flex items-center justify-center gap-24">
       <section className="max-w-[450px]">
-        <h2 className="text-4xl font-semibold leading-tight text-text-primary">
+        <h2 className="text-4xl font-bold leading-tight text-text-primary">
           Safety and security
         </h2>
         <p className="my-6 text-lg text-gray-600">
@@ -32,9 +32,7 @@ export function Security() {
             <div className="flex items-center gap-2 ">
               <ArrowLeft size={24} />
 
-              <h3 className="text-sm font-semibold text-text-primary">
-                Report
-              </h3>
+              <h3 className="text-sm font-bold text-text-primary">Report</h3>
             </div>
             <EllipsisVertical size={24} />
           </section>
@@ -51,16 +49,14 @@ export function Security() {
                       height={460}
                     />
                   </div>
-                  <h2 className="text-xl font-semibold">Emily Rodriguez</h2>
+                  <h2 className="text-xl font-bold">Emily Rodriguez</h2>
                   <p className="text-sm text-gray-500">emily@gmail.com</p>
                   <p className="text-xs text-gray-400">
                     last seen today at 14:07
                   </p>
                 </div>
                 <div className="px-4 py-6">
-                  <h2 className="mb-2 text-lg font-semibold">
-                    Report Adriana?
-                  </h2>
+                  <h2 className="mb-2 text-lg font-bold">Report Adriana?</h2>
                   <p className="mb-4 text-sm text-gray-600">
                     The last 5 messages from this contact will be forwarded to
                     Apex. The contact will not receive any notifications about

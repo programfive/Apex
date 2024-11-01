@@ -19,7 +19,7 @@ const Testimonial = ({
     <div className="relative rounded-lg  bg-white shadow-md">
       <div className="clip-path-triangle absolute -bottom-5  left-1/2 h-10 w-16 -translate-x-1/2 rotate-180 transform bg-white shadow-md" />
       <div className="p-6">
-        <h3 className=" text-center text-lg font-semibold text-primary">
+        <h3 className=" text-center text-lg font-bold text-primary">
           &quot;{title}&quot;
         </h3>
         <p className="my-6 text-center text-lg text-gray-600">{comment}</p>
@@ -49,7 +49,7 @@ export default function Comments() {
         <div className="absolute -left-1/4 -top-[21.875rem] h-[38.75rem] w-[38.75rem] scale-90 transform rounded-full border-4 border-white/80 bg-transparent opacity-30 " />
         <div className="absolute -left-1/4 -top-[21.875rem] h-[38.75rem] w-[38.75rem] scale-105 transform rounded-full border-4 border-white/80 bg-transparent opacity-30 " />
         <section className="mb-8 ">
-          <div className="text-center text-4xl font-semibold leading-tight text-white">
+          <div className="text-center text-4xl font-bold leading-tight text-white">
             <h2> Our blessed client </h2>
             <div className="flex items-center justify-center gap-2">
               <span>said about us</span>

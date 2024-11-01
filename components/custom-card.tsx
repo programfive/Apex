@@ -17,7 +17,7 @@ export const CustomCard: React.FC<FeatureCardProps> = ({
       <div className="mb-4 text-4xl">
         <Icon size={36} className="text-primary" />
       </div>
-      <h3 className="mb-2 text-lg font-semibold text-text-primary">{title}</h3>
+      <h3 className="mb-2 text-lg font-bold text-text-primary">{title}</h3>
       <p className="text-gray-600">{description}</p>
     </div>
   );

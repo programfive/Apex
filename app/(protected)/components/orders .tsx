@@ -85,7 +85,7 @@ export function Orders() {
                     </div>
                   )}
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-text-primary">
+                    <p className="text-sm font-bold text-text-primary">
                       {message.type === "message" && "New Message"}
                       {message.type === "email" && "New Email"}
                       {message.type === "facebook" && "Facebook Messenger"}
@@ -100,7 +100,7 @@ export function Orders() {
       </section>
       <section className=" py-12">
         <div className="max-w-sm">
-          <h2 className="text-3xl  font-semibold leading-tight text-text-primary">
+          <h2 className="text-3xl  font-bold leading-tight text-text-primary">
             Get direct orders from <br /> your customers
           </h2>
           <p className="my-6  text-lg text-gray-600">
@@ -111,13 +111,13 @@ export function Orders() {
         </div>
         <div className="mt-16 flex gap-6">
           <div className="flex gap-4">
-            <h2 className="text-4xl text-text-primary ">4.3K+</h2>
+            <h2 className="text-4xl text-text-primary font-bold ">4.3K+</h2>
             <p className="text-sm text-gray-600">
               Website’s <br /> Powering
             </p>
           </div>
           <div className="flex gap-4">
-            <h2 className="text-4xl text-text-primary ">7M+</h2>
+            <h2 className="text-4xl text-text-primary font-bold ">7M+</h2>
             <p className="text-sm text-gray-600">
               Chats in
               <br /> Last 2024

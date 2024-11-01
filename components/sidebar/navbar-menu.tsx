@@ -2,9 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 import { LucideIcon } from "lucide-react";
-import { Button } from "../ui/button";
+
 
 const transition = {
   type: "spring",
@@ -114,9 +113,7 @@ export const ProductItem = ({
         </motion.div>
       </div>
       <div className="max-w-48 flex-grow rounded-lg ">
-        <h4 className="mb-1 text-xl font-semibold text-text-primary ">
-          {title}
-        </h4>
+        <h4 className="mb-1 text-xl font-bold text-text-primary ">{title}</h4>
         <p className="text-sm text-gray-600">{description}</p>
       </div>
     </Link>

@@ -39,7 +39,7 @@ export function VideoCall() {
           </div>
         </div>
         <div className="max-w-[27.5rem] ">
-          <h2 className="text-4xl font-semibold leading-tight text-text-primary">
+          <h2 className="text-4xl font-bold leading-tight text-text-primary">
             Meet your customers, with live video chat
           </h2>
           <div className="mt-6 space-y-4">

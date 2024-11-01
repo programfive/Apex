@@ -21,11 +21,9 @@ export function Restriction() {
         <div className="absolute bottom-5  left-2/4 z-50 h-1 w-32 -translate-x-2/4 rounded-full bg-red-500" />
 
         <Phone>
-          <div >
+          <div>
             <div className=" px-4 pb-3 pt-2 ">
-              <h3 className="text-lg font-semibold text-text-primary">
-                Messages
-              </h3>
+              <h3 className="text-lg font-bold text-text-primary">Messages</h3>
 
               <div className="mt-2 flex gap-4">
                 <Input type="text" placeholder="Search conversation.." />
@@ -49,7 +47,7 @@ export function Restriction() {
                   />
                   <div className="flex">
                     <div className="flex-1">
-                      <h3 className="font-semibold">{message.name}</h3>
+                      <h3 className="font-bold">{message.name}</h3>
                       <p className="text-sm text-gray-600">{message.message}</p>
                     </div>
                     {/* <span className="text-sm">{message.time}</span>  */}
@@ -78,7 +76,7 @@ export function Restriction() {
         </Phone>
       </section>
       <section className="max-w-[450px]">
-        <h2 className="text-4xl font-semibold leading-tight text-text-primary">
+        <h2 className="text-4xl font-bold leading-tight text-text-primary">
           Restrict chats
         </h2>
         <p className="my-6 text-lg text-gray-600">

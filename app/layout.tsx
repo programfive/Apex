@@ -21,7 +21,7 @@ export default function RootLayout({
         <Toaster />
         <Header />
         <div className="mt-24">{children}</div>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

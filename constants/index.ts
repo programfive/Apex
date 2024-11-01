@@ -23,6 +23,6 @@ export const SOCIAL_NETWORKS = [
 export const NAVIGATION_LINKS = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
+  { name: "Pricing", href: "/pricing" },
 ];

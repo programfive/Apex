@@ -6,7 +6,7 @@ export function EncryptedSecurity() {
   return (
     <Wrapper className="relative flex  items-center justify-center gap-24 ">
       <section className="max-w-[450px]">
-        <h2 className="text-4xl font-semibold leading-tight text-text-primary">
+        <h2 className="text-4xl font-bold leading-tight text-text-primary">
           Encrypted Backups
         </h2>
         <p className="my-6 text-lg text-gray-600">
@@ -26,7 +26,7 @@ export function EncryptedSecurity() {
               <Lock className="h-12 w-12 text-primary" />
             </div>
 
-            <h2 className="mb-4 text-lg font-semibold">
+            <h2 className="mb-4 text-lg font-bold">
               Do you want to create your end-to-end encrypted backup?
             </h2>
 
@@ -34,8 +34,8 @@ export function EncryptedSecurity() {
               The encryption process will be completed in the background. It may
               take some time.
             </p>
-            <Button className="mb-2 w-full pointer-events-none">Crate</Button>
-            <Button className="w-full pointer-events-none" variant="ghost">
+            <Button className="pointer-events-none mb-2 w-full">Crate</Button>
+            <Button className="pointer-events-none w-full" variant="ghost">
               Cancel
             </Button>
           </div>

@@ -53,7 +53,7 @@ export const Contact: React.FC = () => {
   return (
     <Wrapper className="relative mb-10">
       <section className="mb-4 flex flex-col items-center justify-center gap-1">
-        <h2 className="text-center text-5xl font-semibold leading-tight text-text-primary">
+        <h2 className="text-center text-5xl font-bold leading-tight text-text-primary">
           <span className="px-3 text-primary">Get in </span>
           <br />
           Contact With Us
@@ -63,7 +63,7 @@ export const Contact: React.FC = () => {
         </p>
       </section>
       <section className="flex flex-col gap-8 bg-white md:flex-row">
-        <section className="relative overflow-hidden rounded-lg bg-primary p-6 text-white md:w-1/3">
+        <section className="relative overflow-hidden rounded-lg bg-orange-500 p-6 text-white md:w-1/3">
           <div className="relative z-10">
             <h2 className=" mb-2 text-3xl font-bold">Contact Information</h2>
             <p className=" mb-4 text-gray-100">
@@ -73,19 +73,19 @@ export const Contact: React.FC = () => {
           </div>
           <div className="z-10  my-16 space-y-6">
             <p className="flex items-center gap-4">
-              <span className="font-semibold">
+              <span className="font-bold">
                 <PhoneOutgoing size={24} />
-              </span>{" "}
+              </span>
               +591 766 20678
             </p>
             <p className="flex items-center gap-4">
-              <span className="font-semibold">
+              <span className="font-bold">
                 <Mail size={24} />
-              </span>{" "}
+              </span>
               kennedysuedavid24@gmail.com
             </p>
             <p className="flex items-center gap-4">
-              <span className="font-semibold">
+              <span className="font-bold">
                 <MapPin size={24} />
               </span>
               Calle 4 de Noviembre, No. 54, <br /> Equipetrol Zone, Santa Cruz
@@ -121,7 +121,7 @@ export const Contact: React.FC = () => {
                     <FormItem>
                       <FormLabel>First Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="First Name" {...field} />
+                        <Input  {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -134,7 +134,7 @@ export const Contact: React.FC = () => {
                     <FormItem>
                       <FormLabel>Last Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="Last Name" {...field} />
+                        <Input  {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -147,7 +147,7 @@ export const Contact: React.FC = () => {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="Email" {...field} />
+                        <Input  {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -160,7 +160,7 @@ export const Contact: React.FC = () => {
                     <FormItem>
                       <FormLabel>Phone Number</FormLabel>
                       <FormControl>
-                        <Input placeholder="Phone Number" {...field} />
+                        <Input  {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>

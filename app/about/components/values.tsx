@@ -6,7 +6,7 @@ export function Values() {
     <Wrapper className="mb-10">
       <section className="mx-auto px-4">
         <div className="mx-auto mb-8 flex max-w-[33rem] flex-col items-center justify-center text-center ">
-          <h2 className="text-center text-4xl font-semibold leading-tight text-text-primary ">
+          <h2 className="text-center text-4xl font-bold leading-tight text-text-primary ">
             Our core values.
           </h2>
           <p className="mt-4 text-lg text-gray-600">

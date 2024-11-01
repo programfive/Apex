@@ -8,7 +8,7 @@ export function Conversation() {
   return (
     <Wrapper className=" my-20 flex gap-60">
       <section className="gap max-w-[25rem]  ">
-        <h2 className="text-4xl font-semibold leading-tight text-text-primary">
+        <h2 className="text-4xl font-bold leading-tight text-text-primary">
           Start selling directly inside conversations
         </h2>
         <p className="my-6 text-lg text-gray-600">
@@ -38,7 +38,7 @@ export function Conversation() {
               </div>
 
               <div className="flex items-start justify-end gap-2">
-                <div className="bg-orange-500 rounded-lg text-white p-2 ">
+                <div className="rounded-lg bg-orange-500 p-2 text-white ">
                   <p className="max-w-52 text-sm">
                     Hi! Jenny here, I have a few questions I would love to ask
                     you, if that is ok.

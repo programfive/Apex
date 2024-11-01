@@ -32,7 +32,7 @@ export function Hero() {
     <Wrapper className="flex gap-36">
       <section className="max-w-lg py-6">
         <div className="space-y-4">
-          <h1 className="text-5xl font-semibold leading-tight text-text-primary ">
+          <h1 className="text-5xl font-bold leading-tight text-text-primary ">
             Start <span className="text-primary">chatting</span> with customers,
             anytime, anywhere with Apex
           </h1>
@@ -49,14 +49,14 @@ export function Hero() {
           <AnimatedTooltip items={TEAM_MEMBERS} />
           <div className="mx-4 flex gap-4">
             <div>
-              <h2 className="text-2xl font-semibold text-text-primary">
+              <h2 className="text-2xl font-bold text-text-primary">
                 2,291
               </h2>
               <p className="text-sm text-gray-600">Happy Customers</p>
             </div>
             <div className="relative h-10 w-0.5 rounded-full bg-text-primary" />
             <div>
-              <h2 className="text-2xl font-semibold text-text-primary">
+              <h2 className="text-2xl font-bold text-text-primary">
                 4.8/5
               </h2>
               <div className="flex items-center gap-1">
